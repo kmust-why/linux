@@ -11,6 +11,7 @@
 - http://www.linuxidc.com/Linux/2016-09/135527.htm
 
 ## Ubuntu 16.04安装QQ国际版图文详细教程
+- http://www.linuxidc.com/Linux/2016-09/134923.htm
 
 ##  Ubuntu 16.04 安装网易云音乐 
 - http://blog.csdn.net/seekn/article/details/54599999
