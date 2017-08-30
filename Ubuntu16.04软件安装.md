@@ -32,3 +32,13 @@
 
 ## ubuntu16.04安装ngnix
 - http://www.cnblogs.com/piscesLoveCc/p/5794926.html
+
+## ubuntu16.04安装virtualenv 
+- http://blog.csdn.net/wxyangid/article/details/53308865(为python3创建虚拟环境)
+- http://blog.csdn.net/kongxx/article/details/51858153(为python2创建虚拟环境)
+
+## Ubuntu 16.04安装Markdown编辑器MarkMyWords
+- http://www.cnblogs.com/EasonJim/p/7243033.html
+
+## Ubuntu16.04安装PostgreSQL并使用pgadmin3管理数据库_图文详解 
+- http://blog.csdn.net/caib1109/article/details/51582663
