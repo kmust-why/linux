@@ -42,3 +42,27 @@
 
 ## Ubuntu16.04安装PostgreSQL并使用pgadmin3管理数据库_图文详解 
 - http://blog.csdn.net/caib1109/article/details/51582663
+
+## 使用u盘安装ubunt 16.04系统教程
+- http://www.linuxidc.com/Linux/2016-04/130520.htm
+## 安装搜狗输入法
+- http://pinyin.sogou.com/linux/
+- http://blog.csdn.net/ljheee/article/details/52966456
+## Ubuntu 16.04安装QQ国际版图文详细教程
+- http://www.linuxidc.com/Linux/2016-09/134923.htm
+## Ubuntu 16.04下安装64位谷歌Chrome浏览器
+- http://www.linuxidc.com/Linux/2016-05/131096.htm
+## 安装subline3
+- http://www.cnblogs.com/yi220284/p/6367098.html
+## 安装pycharm
+- http://blog.csdn.net/apple9005/article/details/52900335
+## 如何Python写一个安卓APP 
+- http://blog.csdn.net/heivy/article/details/50585118
+## Nginx+Django+Uwsgi架构部署
+- http://www.linuxidc.com/Linux/2014-09/106928.htm
+- http://blog.aizhet.com/Linux/12608.html
+## git的安装与使用教程
+https://ke.qq.com/course/list/git
+
+
+
