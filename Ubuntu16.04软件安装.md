@@ -28,6 +28,7 @@
 
 ## ubuntu16.04安装pycharm
 - http://blog.csdn.net/apple9005/article/details/52900335
+- http://www.cnblogs.com/seamount/archive/2017/08/10/7340452.html
 - 注意：在该教程中直接参考"安装pycharm.sh"部分即可
 
 ## ubuntu16.04安装ngnix
