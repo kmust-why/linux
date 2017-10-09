@@ -23,4 +23,4 @@
 - http://blog.csdn.net/johnnycode/article/details/40624403
 
 ## Centos7.0安装教程 #
-http://www.osyunwei.com/archives/7829.html
+- http://www.osyunwei.com/archives/7829.html
