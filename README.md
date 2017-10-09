@@ -3,6 +3,10 @@
 
 - [linux命令大全](http://man.linuxde.net/)
 
+- [linux基本命令](linux_base_command.md)
+
 - [Ubuntu16.04软件安装](Ubuntu16.04软件安装.md)
 
-- [linux基本命令](linux_base_command.md)
+- [Centos7软件安装](Centos7软件安装.md)
+
+
