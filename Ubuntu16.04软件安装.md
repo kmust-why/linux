@@ -58,6 +58,12 @@
 - http://www.linuxidc.com/Linux/2014-09/106928.htm
 - http://blog.aizhet.com/Linux/12608.html
 
+## Ubuntu 16.04下安装MySQL
+- http://www.linuxidc.com/Linux/2017-06/144805.htm
+
+## ubuntu安装EnvironmentError: mysql_config not found错误
+- http://blog.csdn.net/ping523/article/details/54289398
+
 
 
 
