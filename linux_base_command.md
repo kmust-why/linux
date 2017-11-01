@@ -126,7 +126,7 @@ grep -r 'linux' /var/log/
 
 - 重定向
 
-  可以使用 > 或 < 将命令的输出重定向到一个文件中
+  可以使用 > 或 < 将命令的输出重定向到一个文件中（覆盖的形式）
 
   ```
   echo 'Hello World' > ~/test.txt 在test.txt文件中写入'Hello World'
@@ -165,3 +165,125 @@ grep -r 'linux' /var/log/
   ```
   ps -aux | grep 'ssh'
   ```
+
+## 5、其他命令
+
+```
+clear 清屏命令
+```
+
+```
+dir 支持windows下的dir命令
+```
+
+```
+whoami 查看当前用户是谁
+```
+
+```
+ls -al 查看隐藏的文件
+```
+
+```
+echo 'hello world' >> aa.txt 输入一句话到aa.txt文件中去（追加的形式）
+```
+
+```
+echo 'hello world' > aa.txt 输入一句话到aa.txt文件中去（覆盖的形式）
+```
+
+```
+man ls | more 一屏幕一屏幕的显示ls的帮助信息，按d表示下一屏幕
+```
+
+```
+man ls | head -10 显示ls帮助信息的开头10行
+```
+
+```
+man ls | tail -10 显示ls帮助信息的最后10行
+```
+
+```
+nano aa.txt 打开文件aa.txt(ubuntu下才有的命令)
+```
+
+```
+hostname 查看主机名称
+```
+
+```
+reboot 重启
+```
+
+```
+find ~ 查询当前目录下的所有文件
+```
+
+```
+find ~/aa.txt | grep he 查询当前目录下的aa.txt里面的he
+```
+
+```
+uname -a 查看操作系统的详细信息
+```
+
+```
+file aa.txt 查看该文件的信息
+```
+
+```
+tar --zxvf aa.tar.gz 解压文件
+```
+
+```
+gzip aa.txt和gunzip aa.txt.gz 压缩与解压缩
+```
+
+```
+mount和unmount 挂载命令与卸载命令
+```
+
+```
+ps -Af 查看所有进程的信息 或者 ps -Af | more
+```
+
+```
+ls --help 查看ls的详细信息
+```
+
+```
+/bin 存放可执行文件
+/sbin 存放可执行文件
+/boot 引导
+/etc 配置目录
+/mnt 挂载目录
+/home 主目录
+/dev 设备目录
+/lib 动态库文件
+/lib64 64位的动态库文件
+/lost+found 存放碎片文件
+/proc 存放进程信息
+/usr unix system resource，存放系统自带的软件包
+```
+
+```
+文件类型：
+d:目录
+-:普通文件
+c:字符文件
+l:符号链接文件
+b:块文件
+```
+
+```shell
+权限：
+文件拥有者 user（用u表示） rwx 可读可写可执行
+文件拥有者所在组 group（用g表示） rwx 可读可写可执行
+其他的身份 other（用o表示） rwx 可读可写可执行
+ugo--->>等价于a
+111 111 111（777）表示文件拥有者、文件拥有者所在组和其他的身份对该文件都有可读可写的权限
+chmod u+x aa.txt 对aa.txt这个文件的文件拥有者添加可执行的操作
+
+```
+

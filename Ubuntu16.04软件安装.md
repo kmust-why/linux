@@ -65,8 +65,64 @@
 - http://blog.csdn.net/ping523/article/details/54289398
 
 
+## Ubuntu软件包桌面程序以及增强工具
+
+- apt：高级打包工具
 
 
+- 软件仓库，软件源改为163的
+
+```
+1、修改/etc/apt目录下的sources.list文件，在网络上搜索163软件源，并复制到该文件中（记得做备份操作）
+2、更新源
+sudo apt-get update
+3、升级软件
+sudo apt-get upgrade
+```
+
+- 桌面安装
+
+![](images/apt-install.png)
+
+```
+1、查找桌面
+sudo apt-cache search ubuntu-desktop
+2、并选择相应的桌面安装
+sudo apt-install ubuntu-desktop
+3、sudo apt-get purge xxx 彻底删除软件包
+```
+
+- 以原始的方式安装jdk软件
+
+  - 配置环境变量：配置到/etc/environment文件
+
+    ```
+    JAVA_HOME="java的路径"
+    PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:java的路径/bin"
+    ```
+   - 让该文件生效 
+     - source environment
+   - 打印java的
+
+## Hadoop安装
+
+- hadoop下载
+- Hadoop安装
+- 配置HADOOP_INSTALL和PATH环境变量
+
+  - 不用设置HADOOP_HOME，后面不要带斜线
 
 
+- 测试安装：hadoop version
 
+Hadoop配置模式
+
+- 独立模式
+  - 没有运行的守护程序，所有程序运行在JVM中。适合开发期间运行MapReduce程序，源于它的易于测试和调试。
+  - ./hadoop fs -ls / 该命令表示显示当前的目录
+- 伪分布式
+  - 守护进程运行在本机主机，模拟一个小规模的集群。
+- 完全分布式
+  - 守护进程运行在多个主机上的集群。
+- 海量数据（存储、运算）
+- jps查看java进程
