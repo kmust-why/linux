@@ -91,38 +91,3 @@ sudo apt-cache search ubuntu-desktop
 sudo apt-install ubuntu-desktop
 3、sudo apt-get purge xxx 彻底删除软件包
 ```
-
-- 以原始的方式安装jdk软件
-
-  - 配置环境变量：配置到/etc/environment文件
-
-    ```
-    JAVA_HOME="java的路径"
-    PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:java的路径/bin"
-    ```
-   - 让该文件生效 
-     - source environment
-   - 打印java的
-
-## Hadoop安装
-
-- hadoop下载
-- Hadoop安装
-- 配置HADOOP_INSTALL和PATH环境变量
-
-  - 不用设置HADOOP_HOME，后面不要带斜线
-
-
-- 测试安装：hadoop version
-
-Hadoop配置模式
-
-- 独立模式
-  - 没有运行的守护程序，所有程序运行在JVM中。适合开发期间运行MapReduce程序，源于它的易于测试和调试。
-  - ./hadoop fs -ls / 该命令表示显示当前的目录
-- 伪分布式
-  - 守护进程运行在本机主机，模拟一个小规模的集群。
-- 完全分布式
-  - 守护进程运行在多个主机上的集群。
-- 海量数据（存储、运算）
-- jps查看java进程
